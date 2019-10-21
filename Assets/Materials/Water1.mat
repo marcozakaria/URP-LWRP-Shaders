@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water1
-  m_Shader: {fileID: -6465566751694194690, guid: 88583469ff8df1644ac62f277827c161,
+  m_Shader: {fileID: -6465566751694194690, guid: 0668526151ffbe043843656cf280c822,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -62,12 +62,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1ABF6822: 0.2
+    - Vector1_4EC50A9C: 0
     - Vector1_65242294: 2.92
     - Vector1_6D7CD300: 2
     - Vector1_B466AC9B: 10
     - Vector1_CB9D486: 50
     - Vector1_D92B63CF: 0.6
     - Vector1_E7AEDA4A: 0.05
+    - Vector1_F27BFFAF: 0.02
     - Vector1_FA8D540E: 15
     - _BumpScale: 1
     - _Cutoff: 0.5
