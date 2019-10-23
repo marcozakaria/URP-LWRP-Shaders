@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: oak
+  m_Shader: {fileID: -6465566751694194690, guid: 304bcc3d7aa6bc140b660e7d8a0024dd,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3100
+  stringTagMap: {}
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4362E31E:
+        m_Texture: {fileID: 2800000, guid: 368daa1c393097949908c6c8c19d70c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_31DAC57B: 0.5
+    - Vector1_61F9EBA: 2
+    - Vector1_AFD35245: 0
+    m_Colors:
+    - Vector2_C32BFA68: {r: -0.4, g: -0.2, b: 0, a: 0}
+    - Vector2_EDB0596A: {r: 1, g: 1, b: 0, a: 0}
