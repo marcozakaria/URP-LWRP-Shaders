@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_SciFiSphere
+  m_Shader: {fileID: -6465566751694194690, guid: cc902098248321e439fcecc19cf22296,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1A634417:
+        m_Texture: {fileID: 2800000, guid: d4037a72d8fecd0429663091d628343d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_8170C9E1: 1
+    - Vector1_2D4FBFF2: 1
+    - Vector1_AD3AECD5: 1
+    - Vector1_AF104FE: 10
+    - Vector1_CFE81424: 0.85
+    - Vector1_E3D3E36F: 2.52
+    - Vector1_FA4FF360: 2
+    m_Colors:
+    - Color_7612191: {r: 3.858824, g: 0, b: 0.04705882, a: 0}
+    - Color_E44B9063: {r: 0, g: 2.462745, b: 4, a: 0}
