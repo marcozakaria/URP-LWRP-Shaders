@@ -21,25 +21,28 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_66BC6B28:
-        m_Texture: {fileID: 2800000, guid: 705e4e0d79e714d49864b41168187260, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5fd19197e7b3ee14f98a2215a38b005f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_77150987:
-        m_Texture: {fileID: 2800000, guid: 705e4e0d79e714d49864b41168187260, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30e7795fe617b4c4587daa2614717682, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_84DB64DA:
-        m_Texture: {fileID: 2800000, guid: 672f499b3bcffc64b95c4f41037840f8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 680f6e3d59c464f4e9aff72d97b12a1e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_343F0495: 0.5
-    - Vector1_500875D1: 0.5
+    - Vector1_343F0495: 0.664
+    - Vector1_500875D1: 1
     - Vector1_73ED9519: 0
     - Vector1_ADBAD46A: 0.25
-    - Vector1_D7932F4F: 0
+    - Vector1_D7932F4F: -0.5
     - Vector1_E67FF8A3: 0.5
+    - _CellDenisty: 0
+    - _NormalChanger: 0.5
     m_Colors:
     - Color_FF19B6B7: {r: 0, g: 5.481749, b: 10.68063, a: 0}
-    - Vector2_9F4A10B3: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_9F4A10B3: {r: 0, g: 0.5, b: 0, a: 0}
     - Vector3_3B5C4C92: {r: 0.1, g: 0, b: 0.2, a: 0}
+    - _Color: {r: 0, g: 5.481749, b: 10.68063, a: 0}
