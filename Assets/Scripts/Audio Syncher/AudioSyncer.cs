@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// Parent class responsible for extracting beats from..
@@ -19,7 +17,7 @@ public class AudioSyncer : MonoBehaviour
 
     protected bool m_isBeat;   
 
-    private void Start()
+    private void Awake()
     {
         bias = Random.Range(5, 50);
     }

@@ -321,7 +321,7 @@
             "m_Title": "Vertex Nodes",
             "m_Position": {
                 "x": -1696.0,
-                "y": -800.0
+                "y": -941.0
             }
         },
         {
@@ -342,12 +342,6 @@
         }
     ],
     "m_SerializableEdges": [
-        {
-            "typeInfo": {
-                "fullName": "UnityEditor.Graphing.Edge"
-            },
-            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"dcce3a61-f115-4f4a-9cb2-1427d3012c37\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"790bf952-50dc-4c3f-8e1c-e22046d7bd1f\"\n    }\n}"
-        },
         {
             "typeInfo": {
                 "fullName": "UnityEditor.Graphing.Edge"
@@ -647,6 +641,12 @@
                 "fullName": "UnityEditor.Graphing.Edge"
             },
             "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 2,\n        \"m_NodeGUIDSerialized\": \"7ae99012-5ffe-40b4-a501-9967077a88ca\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 7,\n        \"m_NodeGUIDSerialized\": \"deeb6ccf-d665-41ee-a372-7df6caae4626\"\n    }\n}"
+        },
+        {
+            "typeInfo": {
+                "fullName": "UnityEditor.Graphing.Edge"
+            },
+            "JSONnodeData": "{\n    \"m_OutputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"dcce3a61-f115-4f4a-9cb2-1427d3012c37\"\n    },\n    \"m_InputSlot\": {\n        \"m_SlotId\": 0,\n        \"m_NodeGUIDSerialized\": \"790bf952-50dc-4c3f-8e1c-e22046d7bd1f\"\n    }\n}"
         }
     ],
     "m_PreviewData": {
