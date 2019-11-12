@@ -420,7 +420,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1022,11 +1022,11 @@ MonoBehaviour:
   timeToBeat: 0.05
   restSmoothTime: 5
   beatColors:
-  - {r: 0.078431375, g: 0.1882353, b: 2.9960785, a: 1}
-  - {r: 4, g: 3.7019608, b: 0, a: 1}
-  - {r: 0, g: 4, b: 3.890196, a: 1}
-  - {r: 0.54901963, g: 4, b: 0, a: 1}
-  - {r: 0.65494406, g: 0.65494406, b: 0.65494406, a: 1}
+  - {r: 0.039215688, g: 0.09411765, b: 1.4980392, a: 1}
+  - {r: 1.9999998, g: 1.853403, b: 0, a: 1}
+  - {r: 0, g: 1.9999998, b: 1.9476438, a: 1}
+  - {r: 0.28272247, g: 1.9999998, b: 0, a: 1}
+  - {r: 1.309804, g: 1.309804, b: 1.309804, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1365308248
 MonoBehaviour:
