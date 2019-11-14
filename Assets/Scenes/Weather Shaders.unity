@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -211,6 +211,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &319848950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6637788986254274828, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Name
+      value: Particle System Tornado main
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274825, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637788986254274827, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2534964839176971238, guid: bc4439d56f65e5c46be565f59d20682a,
+        type: 3}
+    - target: {fileID: 6637788986254274827, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28d92d7a285611d4d89e92ec9d7a699f, type: 2}
+    - target: {fileID: 6637788985998413092, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2534964839176971238, guid: bc4439d56f65e5c46be565f59d20682a,
+        type: 3}
+    - target: {fileID: 6637788985998413092, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d76ba68a66d2fc49af43c68dc647edf, type: 2}
+    - target: {fileID: 6637788986038706615, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2534964839176971238, guid: bc4439d56f65e5c46be565f59d20682a,
+        type: 3}
+    - target: {fileID: 6637788986038706615, guid: fe89bdfed6359ab42a2140338fc8fe31,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d76ba68a66d2fc49af43c68dc647edf, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe89bdfed6359ab42a2140338fc8fe31, type: 3}
 --- !u!1 &573547656
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tornado Blend Smooth
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bc4439d56f65e5c46be565f59d20682a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: bc4439d56f65e5c46be565f59d20682a,
         type: 3}

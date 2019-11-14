@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_BlackHole Effect
+  m_Name: BlackHole ShaderGraph
   m_Shader: {fileID: -6465566751694194690, guid: 79dfdaf095782ae46b35c56e00badc4c,
     type: 3}
   m_ShaderKeywords: 
@@ -31,6 +31,8 @@ Material:
     m_Floats:
     - Vector1_12881C69: 0
     - Vector1_CA7F331A: 7
+    - _Range: 5
+    - _progress: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _HolePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _HolePosition: {r: 0, g: 1.5, b: 0, a: 0}
