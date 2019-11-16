@@ -5,13 +5,14 @@ public class CameraShake : MonoBehaviour
     public static CameraShake instance = null;
 
     [Header("positional Shake")]
-    public float shakeTime = 0.5f; //0.1
-    public float shakeMagnetude = 0.05f;
-    public Camera mainCamera;
+    [SerializeField] float shakeTime = 0.5f; //0.1
+    [SerializeField] float shakeMagnetude = 0.05f;
+    [SerializeField] Camera mainCamera;
+    public bool isShaking;
 
-    [Header("End Shake")]
+   /* [Header("End Shake")]
     public float endshakeTime = 0.5f;
-    public float endshakeMagnetude = 0.1f;
+    public float endshakeMagnetude = 0.1f;*/
 
     private Vector3 cameraInitialPosition;
    // private Vector3 cameraInitialRotaion;
@@ -39,16 +40,17 @@ public class CameraShake : MonoBehaviour
     public void ShakeIt()
     {
         cameraInitialPosition = mainCamera.transform.position;
+        isShaking = true;
         InvokeRepeating("StartCameraShaking", 0f, 0.005f);
         Invoke("StopCameraShaking", shakeTime);
     }
 
-    public void ShakeItDeath()
+    /*public void ShakeItDeath()
     {
         cameraInitialPosition = mainCamera.transform.position;
         InvokeRepeating("StartEndCameraShaking", 0f, 0.005f);
         Invoke("StopEndCameraShaking", endshakeTime);
-    }
+    }*/
 
     public void HalfSecondShake()
     {
@@ -70,11 +72,13 @@ public class CameraShake : MonoBehaviour
 
     void StartCameraShaking()
     {
-        float cameraShakingOffsetX = Random.value * shakeMagnetude * 2 - shakeMagnetude;
-        float cameraShakingOffsetY = Random.value * shakeMagnetude * 2 - shakeMagnetude;
+        //float cameraShakingOffsetX = Random.value * shakeMagnetude * 2 - shakeMagnetude;
+        //float cameraShakingOffsetY = Random.value * shakeMagnetude * 2 - shakeMagnetude;
+        float cameraShakingOffsetZ = Random.value * shakeMagnetude * 2 - shakeMagnetude;
         Vector3 cameraIntermadiatePosition = mainCamera.transform.position;
-        cameraIntermadiatePosition.x += cameraShakingOffsetX;
-        cameraIntermadiatePosition.y += cameraShakingOffsetY;
+       // cameraIntermadiatePosition.x += cameraShakingOffsetX;
+        //cameraIntermadiatePosition.y += cameraShakingOffsetY;
+        cameraIntermadiatePosition.z += cameraShakingOffsetZ;
         mainCamera.transform.position = cameraIntermadiatePosition;
     }
 
@@ -82,9 +86,10 @@ public class CameraShake : MonoBehaviour
     {
         CancelInvoke("StartCameraShaking");
         mainCamera.transform.position = cameraInitialPosition;
+        isShaking = false;
     }
 
-    void StartEndCameraShaking()
+   /* void StartEndCameraShaking()
     {
         float cameraShakingOffsetX = Random.value * endshakeMagnetude * 2 - endshakeMagnetude;
         float cameraShakingOffsetY = Random.value * endshakeMagnetude * 2 - endshakeMagnetude;
@@ -98,7 +103,7 @@ public class CameraShake : MonoBehaviour
     {
         CancelInvoke("StartEndCameraShaking");
         mainCamera.transform.position = cameraInitialPosition;
-    }
+    }*/
 
     /*IEnumerator Rotate(float duration)
     {
