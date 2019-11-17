@@ -7,13 +7,13 @@ public class AudioSyncherCamera : AudioSyncer
     [SerializeField] CameraShake cameraShake;
     [SerializeField] Camera mainCamera;
 
-    [Header("FOV")]
-    [SerializeField] float beatValue;
-    [SerializeField] float restValue;
+    [Header("Camera Settings")]
+    [SerializeField] Vector3 beatValue;
+    [SerializeField] Vector3 restValue;
 
     private void Start()
     {
-        bias = 10;
+       // bias = 10;
     }
 
     public override void OnUpdate()
@@ -22,7 +22,7 @@ public class AudioSyncherCamera : AudioSyncer
 
         if (m_isBeat) return;
 
-        mainCamera.fieldOfView = restValue;
+        mainCamera.transform.position = restValue;
     }
 
     public override void OnBeat()
@@ -30,6 +30,7 @@ public class AudioSyncherCamera : AudioSyncer
         base.OnBeat();
 
         CameraFiledOfView();
+        //CameraShake();
     }
 
     void CameraShake()
@@ -48,18 +49,18 @@ public class AudioSyncherCamera : AudioSyncer
         StartCoroutine("MoveToValue", beatValue);
     }
 
-    private IEnumerator MoveToValue(float _target)
+    private IEnumerator MoveToValue(Vector3 _target)
     {
-        float _curr = mainCamera.fieldOfView;
-        float _initial = _curr;
+        Vector3 _curr = transform.position;
+        Vector3 _initial = _curr;
         float _timer = 0;
 
         while (_curr != _target)
         {
-            _curr = Mathf.Lerp(_initial, _target, _timer / timeToBeat);
+            _curr = Vector3.Lerp(_initial, _target, _timer / timeToBeat);
             _timer += Time.deltaTime;
 
-            mainCamera.fieldOfView = _curr;
+            transform.position = _curr;
 
             yield return null;
         }

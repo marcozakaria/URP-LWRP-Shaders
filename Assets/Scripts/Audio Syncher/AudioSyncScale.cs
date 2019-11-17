@@ -6,6 +6,11 @@ public class AudioSyncScale : AudioSyncer
     public Vector3 beatScale;
     public Vector3 restScale;
 
+    private void Start()
+    {
+        bias = Random.Range(0, 80);
+    }
+
     public override void OnUpdate()
     {
         base.OnUpdate();
