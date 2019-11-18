@@ -8,7 +8,7 @@ public class AudioSyncScale : AudioSyncer
 
     private void Start()
     {
-        bias = Random.Range(0, 80);
+        bias = Random.Range(0, 50);
     }
 
     public override void OnUpdate()
