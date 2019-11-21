@@ -1,0 +1,17 @@
+﻿{
+    "name": "Unity.Recorder.Samples.Editor",
+    "references": [
+        "Unity.Recorder.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
