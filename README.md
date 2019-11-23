@@ -8,3 +8,9 @@ HexSphere Shaders:
 ![Spheres](Assets/spheres.PNG)
 
 Water Shaders:
+
+Clouds Shaders:
+
+Fire Shaders:
+
+Snow Shader:
