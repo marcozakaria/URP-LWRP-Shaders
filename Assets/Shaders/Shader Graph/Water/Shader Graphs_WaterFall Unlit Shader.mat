@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_WaterFall Unlit Shader
+  m_Shader: {fileID: -6465566751694194690, guid: e1944a72900d551448e0e785fc26f025,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_9871E07E: 2
+    - Vector1_CB1B7466: 2
+    - Vector1_CC986913: 10
+    - Vector1_CED0DA3B: 0.5
+    - Vector1_EF6E0521: -0.1
+    - Vector1_EFD3C7E0: 2
+    m_Colors:
+    - Color_A8DEBCBA: {r: 0, g: 0.7137255, b: 0.7490196, a: 0}
+    - Vector2_5A0DB51E: {r: 0, g: 0.2, b: 0, a: 0}
+    - Vector2_F448B7B: {r: 0, g: 3, b: 0, a: 0}
