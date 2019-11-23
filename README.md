@@ -10,8 +10,9 @@ HexSphere Shaders:
 Water Shaders:
 
 Clouds Shaders:
-![Spheres](Assets/Clouds.PNG)
+![Clouds](Assets/Clouds.PNG)
 
 Fire Shaders:
+![Fire](Assets/gifFire480p.gif)
 
 Snow Shader:
