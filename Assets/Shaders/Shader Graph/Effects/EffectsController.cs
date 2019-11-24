@@ -1,8 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class EffectsController : MonoBehaviour
 {
     [SerializeField] Material shakeMaterial;
+
+    private void Start()
+    {
+        StartCoroutine(ShakeIt());
+    }
 
     private void Update()
     {
@@ -10,5 +16,15 @@ public class EffectsController : MonoBehaviour
         {
             shakeMaterial.SetFloat("_ShakeTime", Time.time);
         }
+    }
+
+    IEnumerator ShakeIt()
+    {
+        while (true)
+        {
+            shakeMaterial.SetFloat("_ShakeTime", Time.time);
+            yield return new WaitForSeconds(2f);
+        }
+        
     }
 }

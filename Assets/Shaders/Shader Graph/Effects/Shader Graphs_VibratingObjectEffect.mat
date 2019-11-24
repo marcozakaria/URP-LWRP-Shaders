@@ -21,9 +21,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_27E94C6B: 20
-    - Vector1_A59EF564: 0.5
-    - Vector1_A9190B0D: 4.71
-    - _ShakeTime: 1.4975822
+    - Vector1_A2E33C25: 0.485
+    - Vector1_A59EF564: 1
+    - _ShakeTime: 42.26424
     m_Colors:
-    - Vector3_B7A85D01: {r: 0, g: 0, b: 0, a: 0}
+    - Color_47727B2B: {r: 1, g: 0.04265226, b: 0.02352941, a: 1}
+    - Vector3_B7A85D01: {r: 0, g: 25, b: 0, a: 0}
