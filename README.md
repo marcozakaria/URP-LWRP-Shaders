@@ -12,7 +12,7 @@ Water Shaders:
 Clouds Shaders:
 ![Clouds](Assets/Clouds.PNG)
 
-Fire Shaders:
+Fire Shader:<br>
 ![Fire](Assets/gifFire480p.gif)
 
 Snow Shader:
