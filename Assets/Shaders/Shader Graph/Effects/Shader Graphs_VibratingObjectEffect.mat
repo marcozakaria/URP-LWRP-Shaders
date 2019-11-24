@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_WaterFall Unlit Shader
-  m_Shader: {fileID: -6465566751694194690, guid: e1944a72900d551448e0e785fc26f025,
+  m_Name: Shader Graphs_VibratingObjectEffect
+  m_Shader: {fileID: -6465566751694194690, guid: bc021f6dfcc35ce4e9e61eb60709e1f1,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,13 +21,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_9871E07E: 2
-    - Vector1_CB1B7466: 2
-    - Vector1_CC986913: 10
-    - Vector1_CED0DA3B: 0.632
-    - Vector1_EF6E0521: -0.1
-    - Vector1_EFD3C7E0: 2
+    - Vector1_27E94C6B: 20
+    - Vector1_A59EF564: 0.5
+    - Vector1_A9190B0D: 4.71
+    - _ShakeTime: 1.4975822
     m_Colors:
-    - Color_A8DEBCBA: {r: 0, g: 1.0093603, b: 1.0592737, a: 1}
-    - Vector2_5A0DB51E: {r: 0, g: 0.2, b: 0, a: 0}
-    - Vector2_F448B7B: {r: 0, g: 3, b: 0, a: 0}
+    - Vector3_B7A85D01: {r: 0, g: 0, b: 0, a: 0}
