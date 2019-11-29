@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_HexSphere
+  m_Name: Shader Graphs_HexSphere 1
   m_Shader: {fileID: -6465566751694194690, guid: 0bc0edb04b342c049bbe77e3e29b2d11,
     type: 3}
   m_ShaderKeywords: 
@@ -33,14 +33,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_84DB64DA:
-        m_Texture: {fileID: 2800000, guid: 680f6e3d59c464f4e9aff72d97b12a1e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2709cf28890d3ea41a12430d066906f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8D855900:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_343F0495: 0.482
     - Vector1_500875D1: 1
     - Vector1_73ED9519: 0
-    - Vector1_74019420: 10000
+    - Vector1_74019420: 1
     - Vector1_ADBAD46A: 0.25
     - Vector1_D7932F4F: -1
     - Vector1_E67FF8A3: 0.5
