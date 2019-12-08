@@ -1,7 +1,7 @@
 # LWRP-Shaders
 A Collection of Shaders For LWRP render pipeline
 
-Unity 2019.3.0f1
+Unity 2019.3.0f1<br>
 LWRP V7.1.6
 
 HexSphere Shaders:
@@ -13,8 +13,10 @@ Clouds Shaders:
 ![Clouds](Assets/Preview/Clouds.PNG)
 
 Fire Shader:<br>
-![Fire](Assets/Preview/gifFire480p.gif)
-![BlueFire](Assets/Preview/blueFire.gif)
+<p float="left">
+  <img src="Assets/Preview/gifFire480p.gif" width="425" />
+  <img src="Assets/Preview/blueFire.gif" width="425" /> 
+</p>
 
 Snow Shader:
 
