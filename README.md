@@ -5,15 +5,16 @@ Unity 2019.3.0f1
 LWRP V7.1.6
 
 HexSphere Shaders:
-![Spheres](Assets/spheres.PNG)
+![Spheres](Assets/Preview/spheres.PNG)
 
 Water Shaders:
 
 Clouds Shaders:
-![Clouds](Assets/Clouds.PNG)
+![Clouds](Assets/Preview/Clouds.PNG)
 
 Fire Shader:<br>
-![Fire](Assets/gifFire480p.gif)
+![Fire](Assets/Preview/gifFire480p.gif)
+![BlueFire](Assets/Preview/blueFire.gif)
 
 Snow Shader:
 
