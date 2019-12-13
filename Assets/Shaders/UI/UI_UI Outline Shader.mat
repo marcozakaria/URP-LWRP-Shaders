@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_UI Rounded Shader
-  m_Shader: {fileID: 4800000, guid: f24fd3a407b9ad742a12e6fd6a959057, type: 3}
+  m_Name: UI_UI Outline Shader
+  m_Shader: {fileID: 4800000, guid: f08a5faa6657782479652c3f20c5fe4c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,8 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
-    - _Height: 1
-    - _Radius: 0.3
-    - _Width: 1
+    - _Outline: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0.8637595, b: 1, a: 1}
