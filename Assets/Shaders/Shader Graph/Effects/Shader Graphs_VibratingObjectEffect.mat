@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_A2E33C25: 0.502
+    - Vector1_A2E33C25: 0.528
     - Vector1_A59EF564: 1
     - _ShakeTime: 42.26424
     m_Colors:
