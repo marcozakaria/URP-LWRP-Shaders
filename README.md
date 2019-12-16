@@ -1,5 +1,5 @@
-# LWRP-Shaders
-A Collection of Shaders For LWRP render pipeline
+# LWRP(URP)-Shaders
+A Collection of Shaders For LWRP(URP) Render Pipeline
 
 Unity 2019.3.0f1<br>
 LWRP V7.1.6
@@ -17,6 +17,9 @@ Fire Shader:<br>
   <img src="Assets/Preview/gifFire480p.gif" width="425" />
   <img src="Assets/Preview/blueFire.gif" width="425" /> 
 </p>
+
+Fog Shader:
+![Fog](Assets/Preview/Fog.PNG)
 
 Snow Shader:
 

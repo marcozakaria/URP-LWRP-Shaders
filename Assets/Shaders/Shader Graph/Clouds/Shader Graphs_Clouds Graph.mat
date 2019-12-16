@@ -12,7 +12,7 @@ Material:
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -23,22 +23,22 @@ Material:
     m_Floats:
     - Vector1_2B98EB7D: 30
     - Vector1_338070E0: 0.03
-    - Vector1_3BED982A: 1
+    - Vector1_3BED982A: 0.5
     - Vector1_48A8130: 0.01
-    - Vector1_58F7CCC1: 8
+    - Vector1_58F7CCC1: 0.79
     - Vector1_7E1AD4D6: 30
     - Vector1_8038C85: 2
-    - Vector1_8AB010D0: 1
+    - Vector1_8AB010D0: -20
     - Vector1_908E92C3: 2
     - Vector1_9A6C69D3: 20
     - Vector1_A409D8BE: 200
-    - Vector1_A6F9214A: 150
+    - Vector1_A6F9214A: 250
     - Vector1_D2AA808A: 2
     - Vector1_EF0B7AAC: 1
     - Vector1_F5A27251: 0
     - Vector1_FEB1FFD5: -1
     m_Colors:
-    - Color_6D35BD30: {r: 0.04481131, g: 0.35064122, b: 0.5, a: 0}
-    - Color_AD16EE5E: {r: 0.22761661, g: 0.62352943, b: 0.8773585, a: 0}
+    - Color_6D35BD30: {r: 0.049551696, g: 0.40091825, b: 0.57660156, a: 0}
+    - Color_AD16EE5E: {r: 0.27048633, g: 0.7415056, b: 1.0446368, a: 0}
     - Vector4_D3B3E943: {r: 1, g: 0, b: 0, a: 90}
     - Vector4_DA068D89: {r: 0, g: 1, b: -0.3, a: 2.7}
