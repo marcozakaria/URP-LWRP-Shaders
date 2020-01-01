@@ -4,26 +4,28 @@ A Collection of Shaders For LWRP(URP) Render Pipeline
 Unity 2019.3.0f1<br>
 LWRP V7.1.6
 
-HexSphere Shaders:
+- HexSphere Shaders :
 ![Spheres](Assets/Preview/spheres.PNG)
 
-Water Shaders:
+- Water Shaders :
 
-Clouds Shaders:
+- Clouds Shaders :
 ![Clouds](Assets/Preview/Clouds.PNG)
 
-Fire Shader:<br>
+- Fire Shader :<br>
 <p float="left">
   <img src="Assets/Preview/gifFire480p.gif" width="425" />
   <img src="Assets/Preview/blueFire.gif" width="425" /> 
 </p>
 
-Fog Shader:
+- Fog Shader :
 ![Fog](Assets/Preview/Fog.PNG)
 
-Snow Shader:
+- Snow Shader :
 
-Water Shader:
+- Water Shader :
 
-UI Shaders:<br>
+- UI Shaders :<br>
 	Outline and Rounded Corner Shader.
+
+- Steplling distance fade Shader :
