@@ -26,6 +26,6 @@ LWRP V7.1.6
 - Water Shader :
 
 - UI Shaders :<br>
-	Outline and Rounded Corner Shader.
+	 Outline and Rounded Corner Shader.
 
 - Steplling distance fade Shader :

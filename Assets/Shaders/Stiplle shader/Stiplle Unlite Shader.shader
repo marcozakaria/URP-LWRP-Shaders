@@ -2,23 +2,25 @@
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
+        _BaseColor("Color", Color) = (1, 1, 1, 1)
+        _MainTex ("Texture", 2D) = "white" {}      
 
-        _Transparency("Transparency", Range(0,1)) = 1.0
+        _Transparency("Transparency Power", Range(0.4,2)) = 1.0
         _CameraThresHod("Camera threshold",float)=1.0
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
-
+        // base pass with steppling
         Pass
         {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
+            // Unity defined keywords
             #pragma multi_compile_fog
+            #pragma multi_compile_instancing
 
             #include "UnityCG.cginc"
 
@@ -26,6 +28,8 @@
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
+
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct v2f
@@ -34,10 +38,13 @@
                 UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
                 float4 worldPos : TEXCOORD1;
+
+               // UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            fixed4 _BaseColor;
 
             half _Transparency;
             float _CameraThresHod;
@@ -72,7 +79,7 @@
                     // divide by 17 to get value in range (0,1)
                     float threshhold = thresholdMatrix[pixelPos.x % 4][pixelPos.y % 4] / 17;
                     //clip discrad current pixel if value is less than zero
-                    clip(lerp(1.0,0.0,_CameraThresHod-camDist) - threshhold);
+                    clip(lerp(1.0,0.0,_CameraThresHod-camDist/ _Transparency) - threshhold);
                 }
                 
             }
@@ -85,12 +92,41 @@
                 // end stipple 
 
                 // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 col = tex2D(_MainTex, i.uv)*_BaseColor;
                 // apply fog
                 UNITY_APPLY_FOG(i.fogCoord, col);
                 return col;
             }
             ENDCG
+        }
+        // Gpu instantiation pass
+        Pass
+        {
+            Tags{"LightMode" = "DepthOnly"}
+
+            ZWrite On
+            ColorMask 0
+
+            HLSLPROGRAM
+            // Required to compile gles 2.0 with standard srp library
+            #pragma prefer_hlslcc gles
+            #pragma exclude_renderers d3d11_9x
+            #pragma target 2.0
+
+            #pragma vertex DepthOnlyVertex
+            #pragma fragment DepthOnlyFragment
+
+            // -------------------------------------
+            // Material Keywords
+            #pragma shader_feature _ALPHATEST_ON
+
+            //--------------------------------------
+            // GPU Instancing
+            #pragma multi_compile_instancing
+
+            #include "Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl"
+            ENDHLSL
         }
     }
 }

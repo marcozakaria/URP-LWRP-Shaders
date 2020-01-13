@@ -7,8 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Stiplle Unlite Shader
-  m_Shader: {fileID: 4800000, guid: b9ae27140a734ab4ab691faf7399639d, type: 3}
+  m_Name: Shader Graphs_Scifi Grid Squares Shaders
+  m_Shader: {fileID: -6465566751694194690, guid: 2acffcd42d8d3c849b7970b08c95590d,
+    type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,13 +19,10 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1a95a63cf0ffce34d8bd2336d9dcd96d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _CameraThresHod: 1.5
-    - _Transparency: 0.8
+    m_TexEnvs: []
+    m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - Color_CE87F6DE: {r: 0, g: 0.1882353, b: 4, a: 0}
+    - Vector2_2F5D1AA2: {r: 0.85, g: 0.85, b: 0, a: 0}
+    - Vector2_71705CE4: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_D4B55D50: {r: 10, g: 10, b: 0, a: 0}
