@@ -1,7 +1,7 @@
 # LWRP(URP)-Shaders
 A Collection of Shaders For LWRP(URP) Render Pipeline
 
-Unity 2019.3.0f6<br>
+Unity 2019.3.3f<br>
 LWRP V7.2
 
 - HexSphere Shaders :
