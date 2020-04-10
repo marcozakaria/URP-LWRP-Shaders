@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Cubemap_4A22C3AE:
-        m_Texture: {fileID: 8900000, guid: b995d4bd9d11078d11005b9844295342, type: 3}
+        m_Texture: {fileID: 8900000, guid: 5663b0cc99662d84bb53c6c33139bfed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Cubemap_F1753B6:

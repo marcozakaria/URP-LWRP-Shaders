@@ -81,3 +81,22 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.timeline from version 1.2.10 to 1.2.12
+
+=== Fri Apr 10 23:37:09 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.core from version 7.2.1 to 7.3.1
+  com.unity.render-pipelines.lightweight from version 7.2.1 to 7.3.1
+  com.unity.test-framework from version 1.1.11 to 1.1.13
+
+=== Fri Apr 10 23:57:58 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.lightweight from version 7.2.1 to 7.3.1
+  com.unity.test-framework from version 1.1.11 to 1.1.13
