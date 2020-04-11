@@ -1,16 +1,16 @@
 # URP (LWRP)-Shaders
-A Collection of Shaders "For Universal Render Pipeline" (LWRP) Render Pipeline
+A Collection of Shaders For "Universal Render Pipeline" (LWRP) Render Pipeline
 
 Unity 2019.3.9f<br>
 URP(LWRP) V7.3.1
 
 - HexSphere Shaders :
-![Spheres](Assets/Preview/spheres.PNG)
+![Spheres](Assets/Preview/spheres.jpg)
 
 - Water Shaders :
 
 - Clouds Shaders :
-![Clouds](Assets/Preview/Clouds.PNG)
+![Clouds](Assets/Preview/Clouds.jpg)
 
 - Fire Shader :<br>
 <p float="left">
@@ -19,7 +19,10 @@ URP(LWRP) V7.3.1
 </p>
 
 - Fog Shader :
-![Fog](Assets/Preview/Fog.PNG)
+![Fog](Assets/Preview/Fog.jpg)
+
+- Grid Shader :
+![Grid](Assets/Preview/grid.JPG)
 
 - Snow Shader :
 
@@ -35,6 +38,3 @@ URP(LWRP) V7.3.1
 - Interioir Shader :
 
 - Road Shader :
-
-- Grid Shader :
-![Grid](Assets/Preview/grid.JPG)
