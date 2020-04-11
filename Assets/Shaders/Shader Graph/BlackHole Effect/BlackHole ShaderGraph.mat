@@ -32,7 +32,7 @@ Material:
     - Vector1_12881C69: 0
     - Vector1_CA7F331A: 7
     - _Range: 5
-    - _progress: 0
+    - _progress: 0.5292
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _HolePosition: {r: 0, g: 1.5, b: 0, a: 0}

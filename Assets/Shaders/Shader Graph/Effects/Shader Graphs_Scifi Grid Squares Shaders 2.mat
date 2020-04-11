@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Scifi Grid Squares Shaders
+  m_Name: Shader Graphs_Scifi Grid Squares Shaders 2
   m_Shader: {fileID: -6465566751694194690, guid: 2acffcd42d8d3c849b7970b08c95590d,
     type: 3}
   m_ShaderKeywords: 
@@ -23,7 +23,7 @@ Material:
     m_Floats: []
     m_Colors:
     - Color_A24100F5: {r: 0.04509804, g: 0.04509804, b: 0.04509804, a: 1}
-    - Color_CE87F6DE: {r: 0, g: 0.28235295, b: 5.992157, a: 0}
+    - Color_CE87F6DE: {r: 0, g: 0.11467093, b: 2.433572, a: 0}
     - Vector2_2F5D1AA2: {r: 0.85, g: 0.85, b: 0, a: 0}
     - Vector2_71705CE4: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_D4B55D50: {r: 10, g: 10, b: 0, a: 0}
+    - Vector2_D4B55D50: {r: 100, g: 100, b: 0, a: 0}
