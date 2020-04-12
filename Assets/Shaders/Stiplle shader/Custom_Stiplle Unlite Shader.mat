@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CameraThresHod: 1.5
-    - _Transparency: 0.8
+    - _CameraThresHod: 1.8
+    - _Transparency: 0.9
     m_Colors:
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 5.992157, g: 0, b: 0, a: 1}

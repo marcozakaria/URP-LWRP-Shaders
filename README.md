@@ -24,14 +24,17 @@ URP(LWRP) V7.3.1
 - Grid Shader :
 ![Grid](Assets/Preview/grid.JPG)
 
+- Steplling distance fade Shader :
+<p float="center">
+	<img src="Assets/Preview/fade1.gif"/>
+</p>
+
 - Snow Shader :
 
 - Water Shader :
 
 - UI Shaders :<br>
 	 Outline and Rounded Corner Shader.
-
-- Steplling distance fade Shader :
 
 - Flow Map shader :
 

@@ -1,5 +1,0 @@
-{
-  "displayName":"Recorder Editor Sample",
-  "description": "This example shows how to add \"Start Recording\" and \"Stop Recording\" menu items .",
-  "createSeparatePackage": false
-}

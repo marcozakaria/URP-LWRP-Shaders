@@ -2,7 +2,7 @@
 {
     Properties
     {
-        _BaseColor("Color", Color) = (1, 1, 1, 1)
+        [HDR]_BaseColor("Color", Color) = (1, 1, 1, 1)
         _MainTex ("Texture", 2D) = "white" {}      
 
         _Transparency("Transparency Power", Range(0.4,2)) = 1.0
@@ -15,6 +15,7 @@
         // base pass with steppling
         Pass
         {
+            cull Off
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag

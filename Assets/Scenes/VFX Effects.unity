@@ -464,7 +464,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 50000
+      - m_Value: 5000
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 30
