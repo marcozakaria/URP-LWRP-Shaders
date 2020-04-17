@@ -12,20 +12,20 @@ URP(LWRP) V7.3.1
 - Clouds Shaders :
 ![Clouds](Assets/Preview/Clouds.jpg)
 
+- Vertical Fog Shader :
+![Fog](Assets/Preview/Fog.jpg)
+
 - Fire Shader :<br>
-<p float="left">
+<p align="left">
   <img src="Assets/Preview/gifFire480p.gif" width="425" />
   <img src="Assets/Preview/blueFire.gif" width="425" /> 
 </p>
-
-- Fog Shader :
-![Fog](Assets/Preview/Fog.jpg)
 
 - Grid Shader :
 ![Grid](Assets/Preview/grid.JPG)
 
 - Steplling distance fade Shader :
-<p float="center">
+<p align="center">
 	<img src="Assets/Preview/fade1.gif"/>
 </p>
 

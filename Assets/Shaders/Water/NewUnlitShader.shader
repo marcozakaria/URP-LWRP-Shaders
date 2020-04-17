@@ -50,8 +50,8 @@
 			#pragma fragment UnlitPassFragment
 			
 			//#include "Unlit.hlsl"
-            #include "Packages/com.unity.render-pipelines.lightweight/Shaders/UnlitInput.hlsl"
-            #include "Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
             //float _WavelengthWater, _Steepness;
            // float2 _Direction;

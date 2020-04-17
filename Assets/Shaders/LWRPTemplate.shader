@@ -137,11 +137,11 @@ Shader "Lightweight Render Pipeline/Custom/Physically Based Example"
 			// It will include Unity built-in shader variables (except the lighting variables)
 			// (https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html
 			// It will also include many utilitary functions. 
-			#include "Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
 			// Include this if you are doing a lit shader. This includes lighting shader variables,
 			// lighting and shadow functions
-			#include "Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Lighting.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
 			// Material shader variables are not defined in SRP or LWRP shader library.
 			// This means _BaseColor, _BaseMap, _BaseMap_ST, and all variables in the Properties section of a shader
@@ -151,7 +151,7 @@ Shader "Lightweight Render Pipeline/Custom/Physically Based Example"
 			// In this case, for sinmplicity LitInput.hlsl is included. This contains the CBUFFER for the material
 			// properties defined above. As one can see this is not part of the ShaderLibrary, it specific to the
 			// LWRP Lit shader.
-			#include "Packages/com.unity.render-pipelines.lightweight/Shaders/LitInput.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl"
 
 			struct Attributes
 			{
