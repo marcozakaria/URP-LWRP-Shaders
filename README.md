@@ -29,6 +29,9 @@ URP(LWRP) V7.3.1
 	<img src="Assets/Preview/fade1.gif"/>
 </p>
 
+- CRT TV :
+![crt](Assets/Preview/crt_tv_effect.gif)
+
 - Snow Shader :
 
 - Water Shader :
