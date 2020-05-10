@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_CRT_TV
+  m_Shader: {fileID: -6465566751694194690, guid: 1c3283a6ef5b56344adec340217e3020,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_96BA1F01:
+        m_Texture: {fileID: 2800000, guid: 903f538f67c76384da65abf422eb597f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B2F52D36:
+        m_Texture: {fileID: 2800000, guid: 604fd7d348a81ee4bb075584d783070b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_44377681: 2
+    - Vector1_4FC290BF: 750
+    - Vector1_C0263E5: 1
+    - Vector1_DD0BF7F3: 0.05
+    m_Colors: []
