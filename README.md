@@ -30,7 +30,9 @@ URP(LWRP) V7.3.1
 </p>
 
 - CRT TV :
-![crt](Assets/Preview/crt_tv_effect.gif)
+<p align="center">
+	<img src="Assets/Preview/crt_tv_effect.gif"/>
+</p>
 
 - Snow Shader :
 
