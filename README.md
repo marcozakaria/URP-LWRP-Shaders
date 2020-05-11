@@ -24,14 +24,10 @@ URP(LWRP) V7.3.1
 - Grid Shader :
 ![Grid](Assets/Preview/grid.JPG)
 
-- Steplling distance fade Shader :
-<p align="center">
-	<img src="Assets/Preview/fade1.gif"/>
-</p>
-
-- CRT TV :
-<p align="center">
-	<img src="Assets/Preview/crt_tv_effect.gif"/>
+- Steplling distance fade Shader & CRT-TV :
+<p align="left"> 
+  <img src="Assets/Preview/crt_tv_effect.gif" width="425"/>
+  <img src="Assets/Preview/fade1.gif" width="425" /> 
 </p>
 
 - Snow Shader :
