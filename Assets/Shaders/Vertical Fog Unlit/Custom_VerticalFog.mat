@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_VerticalFog
+  m_Shader: {fileID: 4800000, guid: eb30248e74f9390468cd61a8668bccac, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _AlphaPoint: 1
+    - _FO: 2
+    - _Range: 1
+    m_Colors:
+    - _FogColor: {r: 0.5896226, g: 1, b: 0.9066593, a: 1}
+    - _FrontColor: {r: 0.9843137, g: 0.50980395, b: 0.24705882, a: 1}
+    - _LeftColor: {r: 0.9843137, g: 0.50980395, b: 0.24705882, a: 1}
+    - _MidleColorEnd: {r: 0, g: 1, b: 0.77254903, a: 1}
+    - _TopColor: {r: 0.98039216, g: 0.42301154, b: 0.2470588, a: 1}
