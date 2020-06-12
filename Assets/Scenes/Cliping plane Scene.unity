@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -264,7 +264,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &670519579
+--- !u!21 &596144164
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_ClipingPlane (Instance) (Instance) (Instance) (Instance)
-    (Instance)
+    (Instance) (Instance)
   m_Shader: {fileID: -6465566751694194690, guid: 900504e4c138b1840914db4949747cb6,
     type: 3}
   m_ShaderKeywords: 
@@ -402,6 +402,44 @@ Material:
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &826941798
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_ClipingPlane (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance)
+  m_Shader: {fileID: -6465566751694194690, guid: 900504e4c138b1840914db4949747cb6,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_55D2EAFA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4E77083: 0
+    - Vector1_D7C80320: 0
+    m_Colors:
+    - Color_E2DD9948: {r: 1, g: 0, b: 0, a: 1}
+    - Color_E4BAA5F5: {r: 0, g: 0.4847789, b: 1, a: 1}
+    - Vector3_7E897609: {r: 0, g: 0.1, b: 0, a: 0}
+    - Vector3_E770CB51: {r: 0, g: 0, b: 0, a: 0}
+    - Vector4_DDDD907C: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Plane: {r: 0, g: 1, b: 0, a: -1.704}
+    - _PlaneNormal: {r: 0, g: 0.9966995, b: 0.08117935, a: 0}
+    - _PlanePos: {r: 0, g: -0.093, b: -0.911, a: 0}
 --- !u!1 &848288694
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1088447220}
+  - {fileID: 826941798}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -545,7 +583,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670519579}
+  - {fileID: 596144164}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -588,44 +626,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1088447220
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ClipingPlane (Instance) (Instance) (Instance) (Instance)
-    (Instance)
-  m_Shader: {fileID: -6465566751694194690, guid: 900504e4c138b1840914db4949747cb6,
-    type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - Texture2D_55D2EAFA:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - Vector1_4E77083: 0
-    - Vector1_D7C80320: 0
-    m_Colors:
-    - Color_E2DD9948: {r: 1, g: 0, b: 0, a: 1}
-    - Color_E4BAA5F5: {r: 0, g: 0.4847789, b: 1, a: 1}
-    - Vector3_7E897609: {r: 0, g: 0.1, b: 0, a: 0}
-    - Vector3_E770CB51: {r: 0, g: 0, b: 0, a: 0}
-    - Vector4_DDDD907C: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Plane: {r: 0, g: 1, b: 0, a: -1.704}
-    - _PlaneNormal: {r: 0, g: 0.9966995, b: 0.08117935, a: 0}
-    - _PlanePos: {r: 0, g: -0.093, b: -0.911, a: 0}
 --- !u!1 &1851279335
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,13 +796,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085840411}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4.21, y: 0.54, z: -0.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &2085840415
 MonoBehaviour:
   m_ObjectHideFlags: 0
