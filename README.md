@@ -1,7 +1,7 @@
 # URP (LWRP)-Shaders
 A Collection of Shaders For "Universal Render Pipeline" (LWRP) Render Pipeline
 
-Unity 2019.3.15f<br>
+Unity 2019.4.0f<br>
 URP(LWRP) V7.3.1
 
 - HexSphere Shaders :
@@ -17,15 +17,15 @@ URP(LWRP) V7.3.1
 ![Fog](Assets/Preview/VerticalFogUnlit.JPG)
 
 - Fire Shader :<br>
-<p align="left">
-  <img src="Assets/Preview/gifFire480p.gif" width="425" />
-  <img src="Assets/Preview/blueFire.gif" width="425" /> 
+<p align="center">
+  <img src="Assets/Preview/gifFire480p.gif" width="400" />
+  <img src="Assets/Preview/blueFire.gif" width="400" /> 
 </p>
 
 - Steplling distance fade Shader & CRT-TV :
-<p align="left"> 
-  <img src="Assets/Preview/crt_tv_effect.gif" width="425"/>
-  <img src="Assets/Preview/fade1.gif" width="425" /> 
+<p align="center"> 
+  <img src="Assets/Preview/crt_tv_effect.gif" width="400"/>
+  <img src="Assets/Preview/fade1.gif" width="400" /> 
 </p>
 
 - Grid Shader :
