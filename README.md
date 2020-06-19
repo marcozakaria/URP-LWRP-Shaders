@@ -1,16 +1,17 @@
 # URP (LWRP)-Shaders
 A Collection of Shaders For "Universal Render Pipeline" (LWRP) Render Pipeline
 
-Unity 2019.4.0f<br>
+Unity 2019.4.0f1<br>
 URP(LWRP) V7.3.1
 
 - HexSphere Shaders :
 ![Spheres](Assets/Preview/spheres.jpg)
 
-- Water Shaders :
-
 - Clouds Shaders :
 ![Clouds](Assets/Preview/Clouds.jpg)
+
+- Stylized Water Shader :
+![Water1](Assets/Preview/Stylized_Water.JPG)
 
 - Vertical Fog Shader :
 ![Fog](Assets/Preview/Fog.jpg)
@@ -32,8 +33,6 @@ URP(LWRP) V7.3.1
 ![Grid](Assets/Preview/grid.JPG)
 
 - Snow Shader :
-
-- Water Shader :
 
 - UI Shaders :<br>
 	 Outline and Rounded Corner Shader.
