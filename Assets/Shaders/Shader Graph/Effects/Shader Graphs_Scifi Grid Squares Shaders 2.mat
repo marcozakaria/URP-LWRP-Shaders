@@ -22,8 +22,8 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - Color_A24100F5: {r: 0.04509804, g: 0.04509804, b: 0.04509804, a: 1}
-    - Color_CE87F6DE: {r: 0, g: 0.11467093, b: 2.433572, a: 0}
+    - Color_A24100F5: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+    - Color_CE87F6DE: {r: 0, g: 0.114670955, b: 2.4335725, a: 0}
     - Vector2_2F5D1AA2: {r: 0.85, g: 0.85, b: 0, a: 0}
-    - Vector2_71705CE4: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_D4B55D50: {r: 100, g: 100, b: 0, a: 0}
+    - Vector2_71705CE4: {r: 0, g: -1, b: 0, a: 0}
+    - Vector2_D4B55D50: {r: 200, g: 200, b: 0, a: 0}

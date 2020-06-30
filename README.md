@@ -29,8 +29,8 @@ URP(LWRP) V7.3.1
   <img src="Assets/Preview/fade1.gif" width="400" /> 
 </p>
 
-- Grid Shader :
-![Grid](Assets/Preview/grid.JPG)
+- WireFrame Shader :
+![wireFrame](Assets/Preview/WireFrame.JPG)
 
 - Snow Shader :
 
