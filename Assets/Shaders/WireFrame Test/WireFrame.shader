@@ -2,7 +2,7 @@
 // https://github.com/UnityCommunity/UnityLibrary/blob/master/Assets/Shaders/2D/Effects/WireFrame.shader
 // https://catlikecoding.com/unity/tutorials/advanced-rendering/flat-and-wireframe-shading/
 
-shader "Unlit/WireFrame"
+shader "Custom/WireFrame"
 {
     Properties
     {

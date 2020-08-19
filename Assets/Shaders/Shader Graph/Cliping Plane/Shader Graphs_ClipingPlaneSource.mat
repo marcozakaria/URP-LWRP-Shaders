@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_ClipingPlaneSource
+  m_Shader: {fileID: -6465566751694194690, guid: 65df0368b3df49046b1e8b316d3b7736,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2995
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_53D7BA0F:
+        m_Texture: {fileID: 2800000, guid: ca0d79940c6a93447894c4c31d286e81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_692B2B3A: 1.2
+    - Vector1_F49501C0: 1
+    m_Colors:
+    - Color_C81C16F7: {r: 1, g: 1, b: 1, a: 0}
+    - Vector4_D89FDC48: {r: 1, g: 1, b: 1, a: 1}
