@@ -125,13 +125,11 @@ void LitPassGeom(triangle Varyings input[3], inout TriangleStream<Varyings> outS
     outStream.Append(o4);
     outStream.Append(o3);
     outStream.Append(o);
-
     outStream.RestartStrip();   // mark new triangle
 
     outStream.Append(o3);
     outStream.Append(o2);
     outStream.Append(o);
-
     outStream.RestartStrip();
 }
 
