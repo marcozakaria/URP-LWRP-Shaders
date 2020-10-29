@@ -32,6 +32,11 @@ URP(LWRP) V8.2
 - WireFrame Shader :
 ![wireFrame](Assets/Preview/WireFrame.JPG)
 
+- Matrix Glitch Effect :
+<p align="center"> 
+  <img src="Assets/Preview/gifMatrix.gif" width="400"/>
+</p>
+
 - Snow Shader :
 
 - UI Shaders :<br>
