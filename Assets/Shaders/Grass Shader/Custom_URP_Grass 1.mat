@@ -20,13 +20,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 3784e2aca6b4362499bc54d1dd3cae16, type: 3}
+        m_Texture: {fileID: 2800000, guid: fd3cbcb0b2b37874db38a9b27eaa1ef2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.1
     - _Base: 0.49
-    - _Hiegth: 1.66
+    - _Hiegth: 2.01
     - _LightPower: 1.19
     - _ShadowPower: 0.02
     - _TPower: 0.02
