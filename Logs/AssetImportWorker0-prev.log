@@ -1,0 +1,213 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 12201 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Marco/Documents/Unity Projects/LWRP-Shaders
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49901
+Successfully changed project path to: C:/Users/Marco/Documents/Unity Projects/LWRP-Shaders
+C:/Users/Marco/Documents/Unity Projects/LWRP-Shaders
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 235.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.5f1 (e2c53f129de5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Marco/Documents/Unity Projects/LWRP-Shaders/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) R9 M375 (ID=0x6820)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.11027.5002
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031137 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.209 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.037 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3529.
+Total: 4.667200 ms (FindLiveObjects: 0.912200 ms CreateObjectMapping: 0.434900 ms MarkObjects: 3.015800 ms  DeleteObjects: 0.301200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/DissolveFade_Test.unity
+  artifactKey: Guid(b58ce4d4a9504e14c9cd0f63553524d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DissolveFade_Test.unity using Guid(b58ce4d4a9504e14c9cd0f63553524d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab1e1cc07ddd1590c5f84dadd0d5f9b') in 0.023441 seconds
+  Import took 0.033707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.473558 seconds.
+  path: Assets/Scenes/Hack Matrix Effect.unity
+  artifactKey: Guid(9442375626a11df41a4f335da5703fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hack Matrix Effect.unity using Guid(9442375626a11df41a4f335da5703fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424b73f69efb133a6329e4f9a4a28a68') in 0.017014 seconds
+  Import took 0.025689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.022377 seconds.
+  path: Assets/Scenes/Grass Shader.unity
+  artifactKey: Guid(076474b2cf063fa4ca3b0899d33914d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Grass Shader.unity using Guid(076474b2cf063fa4ca3b0899d33914d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a638434b53604c3a3294db4e3794df') in 0.014996 seconds
+  Import took 0.070064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774347 seconds.
+  path: Assets/Scenes/Galaxy.unity
+  artifactKey: Guid(0c0ba8e682f04fe46873ef64216c8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Galaxy.unity using Guid(0c0ba8e682f04fe46873ef64216c8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8367f483e719597b49b83262f0f18951') in 0.015860 seconds
+  Import took 0.028505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.182083 seconds.
+  path: Assets/Scenes/Dark Hole Effect.unity
+  artifactKey: Guid(8da836f0b0573074b84b60cd669aeb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dark Hole Effect.unity using Guid(8da836f0b0573074b84b60cd669aeb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac4fb889b57c3c85fa3549ff1b3e6f9') in 0.016088 seconds
+  Import took 0.028636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.916265 seconds.
+  path: Assets/Scenes/OutLine.unity
+  artifactKey: Guid(cbdad23f1ca0a5c42833b1798537760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OutLine.unity using Guid(cbdad23f1ca0a5c42833b1798537760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ca37862befb87c3c89cf72e690964') in 0.015615 seconds
+  Import took 0.026518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.586945 seconds.
+  path: Assets/Scenes/Stepllin effect.unity
+  artifactKey: Guid(88300ea2c6850464cb259c798eb32a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stepllin effect.unity using Guid(88300ea2c6850464cb259c798eb32a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6692fbe36963230e2cda5e534e465c53') in 0.014563 seconds
+  Import took 0.025826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.684141 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 1.mat
+  artifactKey: Guid(c05decc6ab7f15e4884aa6297f3ea55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 1.mat using Guid(c05decc6ab7f15e4884aa6297f3ea55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b82f5d48dd6085bc4b186ae3b61b5') in 2.910409 seconds
+  Import took 2.922278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Simple Dissolve.shadersubgraph
+  artifactKey: Guid(2df6445eacf9cb848b5c19293914ec4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Simple Dissolve.shadersubgraph using Guid(2df6445eacf9cb848b5c19293914ec4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d29be636fbf5cc0432a1c3ff54b6d0a') in 0.039602 seconds
+  Import took 0.056523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Shader Graphs_VibratingObjectEffect.mat
+  artifactKey: Guid(3022613742909f24e9ea2394c390f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Shader Graphs_VibratingObjectEffect.mat using Guid(3022613742909f24e9ea2394c390f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428a2c3ce6136dabb5c999a36a696b16') in 0.079410 seconds
+  Import took 0.089458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 2.mat
+  artifactKey: Guid(a1bafbda11c7227498938da95d141cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 2.mat using Guid(a1bafbda11c7227498938da95d141cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a117b55e21c2c2ee31178d760f4d3f9') in 0.089723 seconds
+  Import took 0.105919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders.mat
+  artifactKey: Guid(c6c0fa06d5b498247b0b4c26e13a04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders.mat using Guid(c6c0fa06d5b498247b0b4c26e13a04e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c5fefc6b326c1f47b4a9369ef5031') in 0.106613 seconds
+  Import took 0.123354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 1.mat
+  artifactKey: Guid(c05decc6ab7f15e4884aa6297f3ea55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Shader Graphs_Scifi Grid Squares Shaders 1.mat using Guid(c05decc6ab7f15e4884aa6297f3ea55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b82f5d48dd6085bc4b186ae3b61b5') in 0.077517 seconds
+  Import took 0.091844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.086723 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Electricity Effect shader.shadergraph
+  artifactKey: Guid(2744d65ec843c624e808a2717081a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Electricity Effect shader.shadergraph using Guid(2744d65ec843c624e808a2717081a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d81f14b98deb9f58ec4d240e8083cb') in 0.016309 seconds
+  Import took 0.027314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119909 seconds.
+  path: Assets/Shaders/Shader Graph/Effects/Electricity Effect shader.shadergraph
+  artifactKey: Guid(2744d65ec843c624e808a2717081a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Effects/Electricity Effect shader.shadergraph using Guid(2744d65ec843c624e808a2717081a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d81f14b98deb9f58ec4d240e8083cb') in 0.016951 seconds
+  Import took 0.027131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.524627 seconds.
+  path: Assets/Shaders/Shader Graph/Ice & Glass
+  artifactKey: Guid(fb8753a7481a3494dbf4f1826d88c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Ice & Glass using Guid(fb8753a7481a3494dbf4f1826d88c276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed050681d09f16e0649663781cf0d67') in 0.035047 seconds
+  Import took 0.049837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057161 seconds.
+  path: Assets/Shaders/Shader Graph/Ice & Glass/IceGlass depth texture.shadersubgraph
+  artifactKey: Guid(35099758cf8bbb041a0481711d07dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Shader Graph/Ice & Glass/IceGlass depth texture.shadersubgraph using Guid(35099758cf8bbb041a0481711d07dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebf8a3ec871d5837a00118633bead23') in 0.016550 seconds
+  Import took 0.033635 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
