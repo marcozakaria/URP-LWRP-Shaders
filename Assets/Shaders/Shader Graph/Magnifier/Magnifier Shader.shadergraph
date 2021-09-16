@@ -532,7 +532,7 @@
     "m_Guid": {
         "m_GuidSerialized": "65ee1d95-9b29-43b7-8a4a-f6f565e960a6"
     },
-    "m_Name": "Multi_Val",
+    "m_Name": "Offset_Mul",
     "m_DefaultReferenceName": "Vector1_0e311dff19a44808b8d2bbd6faf92a3d",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1449,7 +1449,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "965412bfec65410cb18a26a84057384b",
     "m_Id": 0,
-    "m_DisplayName": "Multi_Val",
+    "m_DisplayName": "Offset_Mul",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
