@@ -8,4 +8,85 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scifi Spheres.unity
     guid: dd314847add20d54a991746f378bafbd
+  - enabled: 1
+    path: Assets/Scenes/WireFrame.unity
+    guid: 6f29400e846ceac49b071ca15e44ad4a
+  - enabled: 1
+    path: Assets/Scenes/Cliping plane Scene.unity
+    guid: a5470e1b39e7a1e4dbeb5b87969f3cc6
+  - enabled: 1
+    path: Assets/Scenes/Clouds Scene.unity
+    guid: 9bd501f8fb167594597eaf1a06afa9bc
+  - enabled: 1
+    path: Assets/Scenes/CRT TV Effect.unity
+    guid: 5f8af511af4edb648b587078ea1f1ded
+  - enabled: 1
+    path: Assets/Scenes/Dark Hole Effect.unity
+    guid: 8da836f0b0573074b84b60cd669aeb12
+  - enabled: 1
+    path: Assets/Scenes/DissolveFade_Test.unity
+    guid: b58ce4d4a9504e14c9cd0f63553524d1
+  - enabled: 1
+    path: Assets/Scenes/Far fog 2 color.unity
+    guid: 07a6b3b65d646f94e9fbaa60636f9756
+  - enabled: 1
+    path: Assets/Scenes/Galaxy.unity
+    guid: 0c0ba8e682f04fe46873ef64216c8aa6
+  - enabled: 1
+    path: Assets/Scenes/Grass Shader.unity
+    guid: 076474b2cf063fa4ca3b0899d33914d7
+  - enabled: 1
+    path: Assets/Scenes/Grid Effects Scene.unity
+    guid: 97dd00b7e7781b94185a4e27ab87df49
+  - enabled: 1
+    path: Assets/Scenes/Hack Matrix Effect.unity
+    guid: 9442375626a11df41a4f335da5703fbb
+  - enabled: 1
+    path: Assets/Scenes/InteriorShader.unity
+    guid: 6f86fd2d7d61cc2479ba03b558240350
+  - enabled: 1
+    path: Assets/Scenes/Magnifier Glass.unity
+    guid: fe91c5d8bec8be741a337ca318b76a0a
+  - enabled: 1
+    path: Assets/Scenes/Moving Tiles Scene.unity
+    guid: 9ebc6dc67fbfd6f40b5bf101c251d456
+  - enabled: 1
+    path: Assets/Scenes/OutLine.unity
+    guid: cbdad23f1ca0a5c42833b1798537760b
+  - enabled: 1
+    path: Assets/Scenes/Reflection Scene.unity
+    guid: b81638a5781f4364d80ca5aa46fe62c2
+  - enabled: 1
+    path: Assets/Scenes/Roads.unity
+    guid: dca225d645226eb4fad928b7ce6fe963
+  - enabled: 1
+    path: Assets/Scenes/Shader Effects Dissolve.unity
+    guid: 77c9721e0460e2f44aba6d506714dbb8
+  - enabled: 1
+    path: Assets/Scenes/Stepllin effect.unity
+    guid: 88300ea2c6850464cb259c798eb32a00
+  - enabled: 1
+    path: Assets/Scenes/StylizedWater.unity
+    guid: 7ccadb292446f4e4b80395f33e6619ca
+  - enabled: 1
+    path: Assets/Scenes/Tree Shaders Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/UI Effects.unity
+    guid: 1905113f875abf14c9368fc812186a37
+  - enabled: 1
+    path: Assets/Scenes/Vertical Fog Scene.unity
+    guid: 039ef8a17c0643a4ea7b22656428bfe0
+  - enabled: 1
+    path: Assets/Scenes/Verticale Fog 2.unity
+    guid: 9fd08c04b9c7bba4daaed7bbfbef9a5c
+  - enabled: 1
+    path: Assets/Scenes/VFX Effects.unity
+    guid: a596af2163979d746bcfc6de82d7fe42
+  - enabled: 1
+    path: Assets/Scenes/Water Shaders.unity
+    guid: a7f8234ad5dae9c4384227ed5cda86fb
+  - enabled: 1
+    path: Assets/Scenes/Weather Shaders.unity
+    guid: da170b7c0e2a95d4c9a944f926d29eb0
   m_configObjects: {}
