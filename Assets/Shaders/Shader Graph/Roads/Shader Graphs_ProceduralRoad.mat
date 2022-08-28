@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,7 +10,8 @@ Material:
   m_Name: Shader Graphs_ProceduralRoad
   m_Shader: {fileID: -6465566751694194690, guid: f132bd4ddf473e848924ba6a8becfe5c,
     type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,6 +21,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
+    m_Ints: []
     m_Floats:
     - Vector1_26CBEBC: 0.02
     - Vector1_42FD9925: 0.4
@@ -30,3 +32,17 @@ Material:
     - Color_73E42BCF: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     - Color_9672EF36: {r: 1, g: 0.9083079, b: 0, a: 1}
     - Vector2_531A76F3: {r: 8.5, g: 25, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1666029659998673397
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

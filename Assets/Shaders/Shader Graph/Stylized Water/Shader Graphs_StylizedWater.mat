@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,7 +10,8 @@ Material:
   m_Name: Shader Graphs_StylizedWater
   m_Shader: {fileID: -6465566751694194690, guid: e849d895fd2171744bfe67cd2e89b404,
     type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -32,6 +33,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5c7d918acec33534b9dddacdbee2ac3a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_1047081D: 0.5
     - Vector1_3D64EE58: 0.05
@@ -48,3 +50,17 @@ Material:
     - Vector2_529D51B9: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_5BDF2029: {r: 0.025, g: 0.025, b: 0, a: 0}
     - Vector2_C82DC272: {r: -0.05, g: 0.05, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1900728250726827640
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
